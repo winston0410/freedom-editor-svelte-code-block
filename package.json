@@ -1,6 +1,6 @@
 {
   "name": "@freedom-editor/svelte-code-block",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Code block built with svelte.js for Freedom Editor",
   "main": "./src/index.js",
   "scripts": {
