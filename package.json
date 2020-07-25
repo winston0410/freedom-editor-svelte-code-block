@@ -1,0 +1,42 @@
+{
+  "name": "@freedom-editor/svelte-code-block",
+  "version": "1.0.0",
+  "description": "Code block built with svelte.js for Freedom Editor",
+  "main": "./src/index.js",
+  "scripts": {
+    "build": "npx rollup -c;",
+    "release": "npx rollup -c; np",
+    "test": "npx jasmine",
+    "coverage": "npx nyc npm run test"
+  },
+  "keywords": [
+    "Code",
+    "freedom-editor"
+  ],
+  "author": "Hugo Sum",
+  "homepage": "https://github.com/winston0410/freedom-editor-svelte-code-block",
+  "repository": "github:winston0410/freedom-editor-svelte-code-block",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^14.0.0",
+    "@rollup/plugin-multi-entry": "^3.0.1",
+    "@rollup/plugin-node-resolve": "^8.4.0",
+    "basichtml": "^2.3.0",
+    "eslint": "^7.4.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jasmine": "^4.1.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jasmine": "^3.5.0",
+    "jsdom": "^16.3.0",
+    "nyc": "^15.1.0",
+    "rollup": "^2.21.0",
+    "rollup-plugin-svelte": "^5.2.3",
+    "rollup-plugin-terser": "^6.1.0",
+    "source-map-support": "^0.5.19",
+    "svelte": "^3.24.0"
+  }
+}
